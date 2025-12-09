@@ -514,7 +514,15 @@
           <i class="bi bi-file-earmark"></i>
           <span>tokyo</span>
         </a>
-      </li><!-- End Blank Page Nav -->
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="index.php?page=form">
+          <i class="bi bi-file-earmark"></i>
+          <span>form</span>
+        </a>
+      </li>
+      <!-- End Blank Page Nav -->
 
     </ul>
 
@@ -551,6 +559,9 @@
             break;
             case 'tokyo':
             include 'modules/tokyo.php';
+            break;
+             case 'form':
+            include 'modules/form.php';
             break;
         }
     }
